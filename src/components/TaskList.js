@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Task from './Task';
 
@@ -7,6 +8,8 @@ export default function TaskList({ loading, tasks, onPinTask, onArchiveTask }) {
     onPinTask,
     onArchiveTask,
   };
+
+
 
   const LoadingRow = (
     <div className="loading-item">
